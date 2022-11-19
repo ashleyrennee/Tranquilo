@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C40DE93290C990C00861EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DE92290C990C00861EC9 /* AppDelegate.swift */; };
+		6C40DE95290C990C00861EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DE94290C990C00861EC9 /* SceneDelegate.swift */; };
+		6C40DE9A290C990C00861EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40DE98290C990C00861EC9 /* Main.storyboard */; };
+		6C40DE9C290C990D00861EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C40DE9B290C990D00861EC9 /* Assets.xcassets */; };
+		6C40DE9F290C990D00861EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40DE9D290C990D00861EC9 /* LaunchScreen.storyboard */; };
+		6C40DEAA290C990D00861EC9 /* TranquiloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DEA9290C990D00861EC9 /* TranquiloTests.swift */; };
+		6C40DEB4290C990D00861EC9 /* TranquiloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DEB3290C990D00861EC9 /* TranquiloUITests.swift */; };
+		6C40DEB6290C990D00861EC9 /* TranquiloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DEB5290C990D00861EC9 /* TranquiloUITestsLaunchTests.swift */; };
+		6C40DEC6290CA49800861EC9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DEC5290CA49800861EC9 /* SignInViewController.swift */; };
+		6C40DEC8290CA72E00861EC9 /* SignInBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C40DEC7290CA72E00861EC9 /* SignInBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C40DEA6290C990D00861EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40DE87290C990C00861EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40DE8E290C990C00861EC9;
+			remoteInfo = Tranquilo;
+		};
+		6C40DEB0290C990D00861EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40DE87290C990C00861EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40DE8E290C990C00861EC9;
+			remoteInfo = Tranquilo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C40DE8F290C990C00861EC9 /* Tranquilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tranquilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40DE92290C990C00861EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C40DE94290C990C00861EC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C40DE99290C990C00861EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C40DE9B290C990D00861EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C40DE9E290C990D00861EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C40DEA0290C990D00861EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40DEA5290C990D00861EC9 /* TranquiloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquiloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40DEA9290C990D00861EC9 /* TranquiloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiloTests.swift; sourceTree = "<group>"; };
+		6C40DEAF290C990D00861EC9 /* TranquiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranquiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40DEB3290C990D00861EC9 /* TranquiloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiloUITests.swift; sourceTree = "<group>"; };
+		6C40DEB5290C990D00861EC9 /* TranquiloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranquiloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C40DEC5290CA49800861EC9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6C40DEC7290CA72E00861EC9 /* SignInBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C40DE8C290C990C00861EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEA2290C990D00861EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEAC290C990D00861EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C40DE86290C990C00861EC9 = {
+			isa = PBXGroup;
+			children = (
+				6C40DE91290C990C00861EC9 /* Tranquilo */,
+				6C40DEA8290C990D00861EC9 /* TranquiloTests */,
+				6C40DEB2290C990D00861EC9 /* TranquiloUITests */,
+				6C40DE90290C990C00861EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C40DE90290C990C00861EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DE8F290C990C00861EC9 /* Tranquilo.app */,
+				6C40DEA5290C990D00861EC9 /* TranquiloTests.xctest */,
+				6C40DEAF290C990D00861EC9 /* TranquiloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C40DE91290C990C00861EC9 /* Tranquilo */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DEC4290C993F00861EC9 /* Model */,
+				6C40DEC3290C993000861EC9 /* View */,
+				6C40DEC2290C991700861EC9 /* Controller */,
+				6C40DE92290C990C00861EC9 /* AppDelegate.swift */,
+				6C40DE94290C990C00861EC9 /* SceneDelegate.swift */,
+				6C40DE9B290C990D00861EC9 /* Assets.xcassets */,
+				6C40DE9D290C990D00861EC9 /* LaunchScreen.storyboard */,
+				6C40DEA0290C990D00861EC9 /* Info.plist */,
+			);
+			path = Tranquilo;
+			sourceTree = "<group>";
+		};
+		6C40DEA8290C990D00861EC9 /* TranquiloTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DEA9290C990D00861EC9 /* TranquiloTests.swift */,
+			);
+			path = TranquiloTests;
+			sourceTree = "<group>";
+		};
+		6C40DEB2290C990D00861EC9 /* TranquiloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DEB3290C990D00861EC9 /* TranquiloUITests.swift */,
+				6C40DEB5290C990D00861EC9 /* TranquiloUITestsLaunchTests.swift */,
+			);
+			path = TranquiloUITests;
+			sourceTree = "<group>";
+		};
+		6C40DEC2290C991700861EC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DEC5290CA49800861EC9 /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C40DEC3290C993000861EC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DE98290C990C00861EC9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C40DEC4290C993F00861EC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C40DEC7290CA72E00861EC9 /* SignInBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C40DE8E290C990C00861EC9 /* Tranquilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40DEB9290C990D00861EC9 /* Build configuration list for PBXNativeTarget "Tranquilo" */;
+			buildPhases = (
+				6C40DE8B290C990C00861EC9 /* Sources */,
+				6C40DE8C290C990C00861EC9 /* Frameworks */,
+				6C40DE8D290C990C00861EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tranquilo;
+			productName = Tranquilo;
+			productReference = 6C40DE8F290C990C00861EC9 /* Tranquilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C40DEA4290C990D00861EC9 /* TranquiloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40DEBC290C990D00861EC9 /* Build configuration list for PBXNativeTarget "TranquiloTests" */;
+			buildPhases = (
+				6C40DEA1290C990D00861EC9 /* Sources */,
+				6C40DEA2290C990D00861EC9 /* Frameworks */,
+				6C40DEA3290C990D00861EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40DEA7290C990D00861EC9 /* PBXTargetDependency */,
+			);
+			name = TranquiloTests;
+			productName = TranquiloTests;
+			productReference = 6C40DEA5290C990D00861EC9 /* TranquiloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C40DEAE290C990D00861EC9 /* TranquiloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40DEBF290C990D00861EC9 /* Build configuration list for PBXNativeTarget "TranquiloUITests" */;
+			buildPhases = (
+				6C40DEAB290C990D00861EC9 /* Sources */,
+				6C40DEAC290C990D00861EC9 /* Frameworks */,
+				6C40DEAD290C990D00861EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40DEB1290C990D00861EC9 /* PBXTargetDependency */,
+			);
+			name = TranquiloUITests;
+			productName = TranquiloUITests;
+			productReference = 6C40DEAF290C990D00861EC9 /* TranquiloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C40DE87290C990C00861EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6C40DE8E290C990C00861EC9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6C40DEA4290C990D00861EC9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6C40DE8E290C990C00861EC9;
+					};
+					6C40DEAE290C990D00861EC9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6C40DE8E290C990C00861EC9;
+					};
+				};
+			};
+			buildConfigurationList = 6C40DE8A290C990C00861EC9 /* Build configuration list for PBXProject "Tranquilo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C40DE86290C990C00861EC9;
+			productRefGroup = 6C40DE90290C990C00861EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C40DE8E290C990C00861EC9 /* Tranquilo */,
+				6C40DEA4290C990D00861EC9 /* TranquiloTests */,
+				6C40DEAE290C990D00861EC9 /* TranquiloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C40DE8D290C990C00861EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40DE9F290C990D00861EC9 /* LaunchScreen.storyboard in Resources */,
+				6C40DE9C290C990D00861EC9 /* Assets.xcassets in Resources */,
+				6C40DE9A290C990C00861EC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEA3290C990D00861EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEAD290C990D00861EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C40DE8B290C990C00861EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40DE93290C990C00861EC9 /* AppDelegate.swift in Sources */,
+				6C40DE95290C990C00861EC9 /* SceneDelegate.swift in Sources */,
+				6C40DEC6290CA49800861EC9 /* SignInViewController.swift in Sources */,
+				6C40DEC8290CA72E00861EC9 /* SignInBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEA1290C990D00861EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40DEAA290C990D00861EC9 /* TranquiloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40DEAB290C990D00861EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40DEB6290C990D00861EC9 /* TranquiloUITestsLaunchTests.swift in Sources */,
+				6C40DEB4290C990D00861EC9 /* TranquiloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C40DEA7290C990D00861EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40DE8E290C990C00861EC9 /* Tranquilo */;
+			targetProxy = 6C40DEA6290C990D00861EC9 /* PBXContainerItemProxy */;
+		};
+		6C40DEB1290C990D00861EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40DE8E290C990C00861EC9 /* Tranquilo */;
+			targetProxy = 6C40DEB0290C990D00861EC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C40DE98290C990C00861EC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40DE99290C990C00861EC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C40DE9D290C990D00861EC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40DE9E290C990D00861EC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C40DEB7290C990D00861EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C40DEB8290C990D00861EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C40DEBA290C990D00861EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tranquilo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.Tranquilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C40DEBB290C990D00861EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tranquilo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.Tranquilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C40DEBD290C990D00861EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TranquiloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tranquilo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tranquilo";
+			};
+			name = Debug;
+		};
+		6C40DEBE290C990D00861EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TranquiloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tranquilo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tranquilo";
+			};
+			name = Release;
+		};
+		6C40DEC0290C990D00861EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TranquiloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tranquilo;
+			};
+			name = Debug;
+		};
+		6C40DEC1290C990D00861EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TranquiloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tranquilo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C40DE8A290C990C00861EC9 /* Build configuration list for PBXProject "Tranquilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40DEB7290C990D00861EC9 /* Debug */,
+				6C40DEB8290C990D00861EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40DEB9290C990D00861EC9 /* Build configuration list for PBXNativeTarget "Tranquilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40DEBA290C990D00861EC9 /* Debug */,
+				6C40DEBB290C990D00861EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40DEBC290C990D00861EC9 /* Build configuration list for PBXNativeTarget "TranquiloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40DEBD290C990D00861EC9 /* Debug */,
+				6C40DEBE290C990D00861EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40DEBF290C990D00861EC9 /* Build configuration list for PBXNativeTarget "TranquiloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40DEC0290C990D00861EC9 /* Debug */,
+				6C40DEC1290C990D00861EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C40DE87290C990C00861EC9 /* Project object */;
+}
